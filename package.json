@@ -1,0 +1,8 @@
+{
+  "name": "love-story-repack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start:host": "yarn workspace host run start"
+  }
+}
