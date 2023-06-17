@@ -1,0 +1,6 @@
+[submodule "ls-platform"]
+	path = ls-platform
+	url = git@github.com:loyal-ki/ls-platform.git
+[submodule "ls-chat-mini-app"]
+	path = ls-chat-mini-app
+	url = https://github.com/loyal-ki/ls-chat-mini-app.git
