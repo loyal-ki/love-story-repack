@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start:host": "yarn workspace host run start"
+    "all": "yarn --cwd ls-chat-mini-app all && yarn --cwd ls-auth-mini-app all && yarn --cwd ls-platform all",
+    "start:host": "yarn --cwd ls-platform start",
+    "start:chat-app": "yarn --cwd ls-chat-mini-app start",
+    "start:auth-app": "yarn --cwd ls-auth-mini-app start",
+    "run:host:ios": "yarn --cwd ls-platform ios",
+    "run:host:android": "yarn --cwd ls-platform android",
+    "adbreverse": "adb reverse tcp:3000 tcp:3000 && adb reverse tcp:9003 tcp:9003 && adb reverse tcp:9004 tcp:9004"
   }
 }
