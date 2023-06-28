@@ -7,3 +7,6 @@
 [submodule "ls-auth-mini-app"]
 	path = ls-auth-mini-app
 	url = git@github.com:loyal-ki/ls-auth-mini-app.git
+[submodule "ls-platform-backend"]
+	path = ls-platform-backend
+	url = git@github.com:loyal-ki/ls-platform-backend.git
